@@ -1,14 +1,14 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
-title: "[FEATURE] - "
+name: Technical Task
+about: Create a backlog items for a non-user facing enhancement
+title: "[TECH TASK] - "
 labels: enhancement
 assignees: ""
 ---
 
 ## Description
 
-### Give a short description of the feature request
+### Give a short description of the task
 
 ## Value Statement
 
