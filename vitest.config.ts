@@ -14,9 +14,7 @@ const sharedIgnoredFiles = [
 ];
 
 // Files to be tested once further development happens
-const tempIgnoredFiles = [
-  "**/src/features/user-dashboards/reservation-filter/*",
-];
+const tempIgnoredFiles = ["**/src/features/user-dashboards/reservation-filter/*"];
 
 export default defineConfig((configEnv) =>
   mergeConfig(
@@ -52,6 +50,6 @@ export default defineConfig((configEnv) =>
         ],
         setupFiles: ["./vitest.setup.ts"],
       },
-    })
-  )
+    }),
+  ),
 );
