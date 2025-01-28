@@ -2,6 +2,8 @@ node_modules
 npm-debug.log
 build
 .dockerignore
+dist
+docker-compose.yml
 **/.git
 **/.DS_Store
 **/node_modules
